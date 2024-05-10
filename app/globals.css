@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 h1 {
-  @apply text-4xl font-bold text-neutral;
+  @apply text-6xl font-bold text-neutral;
 }
 
 h2 {
-  @apply text-3xl font-bold text-neutral;
+  @apply text-4xl font-bold text-neutral;
 }
 
 h3 {
@@ -16,4 +16,8 @@ h3 {
 
 h4 {
   @apply text-xl font-semibold text-neutral;
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -21,8 +21,8 @@ const config: Config = {
       {
         dark: {
           ...require("daisyui/src/theming/themes")["dark"],
-          primary: "#e31d4c",
-          secondary: "teal",
+          // primary: "#e31d4c",
+          // secondary: "teal",
           neutral: "#f5f5f5",
         },
       },
@@ -41,7 +41,7 @@ const config: Config = {
       },
     ],
   },
-  plugins: [require("tailwindcss-animate"), require("daisyui")],
+  plugins: [require("daisyui")],
 } satisfies Config
 
 export default config
